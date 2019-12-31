@@ -4,6 +4,7 @@ import JumbotronE from './components/Jumbotron';
 import Buttons from './components/Buttons';
 import Hoods from './components/Hoods';
 import Properties from './components/Properties';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Buttons></Buttons>
       <Hoods></Hoods>
       <Properties></Properties>
+      <Footer></Footer>
     </>
   );
 }
